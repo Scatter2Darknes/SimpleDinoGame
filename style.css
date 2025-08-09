@@ -1,0 +1,49 @@
+#score {
+    text-align: center;
+}
+
+#game {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+    background-image: url("https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec");
+    background-size: cover;
+}
+
+#dino {
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top: 225px;
+    left: 100px;
+    background-image: url("https://www.inspireuplift.com/resizer/?image=https://cdn.inspireuplift.com/uploads/images/seller_products/29869/1701780343_skibiditoilet11.png&width=800&height=800&quality=90&format=auto&fit=pad");
+    background-size: cover;
+}
+
+#rock {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 175px;
+    left: 550px;
+    background-image: url("https://png.pngtree.com/png-clipart/20231019/original/pngtree-close-up-of-big-stone-isolated-big-rock-png-image_13370758.png");
+    background-size: cover;
+    animation: rock 1.33s infinite;
+}
+
+@keyframes rock {
+    0%{left: 600px;}
+    100%{left: -50px;}
+}
+
+.jump-animation{
+    animation: jump 0.5s;
+}
+
+@keyframes jump {
+    0%{top: 225px;}
+    50%{top: 75px;}
+    70%{top: 75px;}
+    100%{top: 225px;}
+}
