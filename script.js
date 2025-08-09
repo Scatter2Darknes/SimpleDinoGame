@@ -25,7 +25,6 @@ setInterval(() => {
     score.innerText++;
     const dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue('top'));
     const rockLeft = parseInt(window.getComputedStyle(rock).getPropertyValue('left'));
-    console.log(rockLeft);
 
     if (rockLeft < 0) {
         rock.style.display = 'none';
