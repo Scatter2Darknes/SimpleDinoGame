@@ -15,6 +15,12 @@ document.addEventListener('keypress', () => {
     }
 });
 
+document.addEventListener('click', () => {
+    if (!dino.classList.contains('jump-animation')) {
+        jump();
+    }
+});
+
 setInterval(() => {
     score.innerText++;
     const dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue('top'));
